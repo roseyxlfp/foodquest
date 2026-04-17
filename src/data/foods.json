@@ -1,0 +1,98 @@
+[
+  {
+    "id": "carrot",
+    "name": "Carrot",
+    "emoji": "🥕",
+    "cost": 15,
+    "passive": 0.3,
+    "description": "Carrots are packed with beta-carotene, which your body turns into vitamin A for healthy eyes."
+  },
+  {
+    "id": "tomato",
+    "name": "Tomato",
+    "emoji": "🍅",
+    "cost": 30,
+    "passive": 0.6,
+    "description": "Tomatoes contain lycopene — an antioxidant linked to heart health. Bonus: they ripen better off the vine at room temp."
+  },
+  {
+    "id": "corn",
+    "name": "Corn",
+    "emoji": "🌽",
+    "cost": 55,
+    "passive": 1.1,
+    "description": "Corn is the most-grown crop on Earth — used for food, fuel (ethanol), and animal feed."
+  },
+  {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "emoji": "🍓",
+    "cost": 90,
+    "passive": 1.9,
+    "description": "A single strawberry has about 200 tiny seeds on the outside. They're surprisingly rich in vitamin C!"
+  },
+  {
+    "id": "potato",
+    "name": "Potato",
+    "emoji": "🥔",
+    "cost": 150,
+    "passive": 3.2,
+    "description": "Potatoes produce more calories per acre than any major grain, making them a sustainability superstar."
+  },
+  {
+    "id": "broccoli",
+    "name": "Broccoli",
+    "emoji": "🥦",
+    "cost": 250,
+    "passive": 5.5,
+    "description": "Broccoli is loaded with sulforaphane, a compound studied for its cancer-fighting potential."
+  },
+  {
+    "id": "pepper",
+    "name": "Bell Pepper",
+    "emoji": "🫑",
+    "cost": 400,
+    "passive": 9,
+    "description": "Red, yellow, and green peppers are the same plant at different ripeness — red has the most vitamin C."
+  },
+  {
+    "id": "avocado",
+    "name": "Avocado",
+    "emoji": "🥑",
+    "cost": 700,
+    "passive": 15,
+    "description": "Avocados are nutrient-dense but water-hungry — one fruit can take ~200L of water to grow."
+  },
+  {
+    "id": "apple",
+    "name": "Apple Tree",
+    "emoji": "🍎",
+    "cost": 1200,
+    "passive": 28,
+    "description": "An apple tree can produce fruit for 50+ years. Keeps doctors away — and absorbs a lot of CO₂."
+  },
+  {
+    "id": "pineapple",
+    "name": "Pineapple",
+    "emoji": "🍍",
+    "cost": 2000,
+    "passive": 48,
+    "description": "Pineapples take up to 2 years to grow! Each plant usually yields only one fruit at a time."
+  },
+  {
+    "id": "mushroom",
+    "name": "Mushroom",
+    "emoji": "🍄",
+    "cost": 3500,
+    "passive": 90,
+    "description": "Mushrooms aren't plants — they're fungi that grow on decomposing matter, recycling nutrients."
+  },
+  {
+    "id": "grape",
+    "name": "Grape Vine",
+    "emoji": "🍇",
+    "cost": 6000,
+    "passive": 160,
+    "description": "Grape vines can live over 100 years. Older vines often produce the most flavorful fruit."
+  }
+]

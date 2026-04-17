@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sprout",
+    "name": "Sprout the Sage",
+    "emoji": "🌱",
+    "cost": 50,
+    "effect": { "type": "flat", "value": 2 },
+    "description": "Adds +$2 to every correct answer. A tiny helper with big wisdom."
+  },
+  {
+    "id": "bee",
+    "name": "Buzz the Bee",
+    "emoji": "🐝",
+    "cost": 200,
+    "effect": { "type": "percent", "value": 25 },
+    "description": "+25% bonus on correct answers. Pollinates your profits!"
+  },
+  {
+    "id": "sun",
+    "name": "Sunny the Sun",
+    "emoji": "☀️",
+    "cost": 500,
+    "effect": { "type": "passive_percent", "value": 50 },
+    "description": "Boosts passive income from all planted foods by +50%."
+  },
+  {
+    "id": "cow",
+    "name": "Moo the Cow",
+    "emoji": "🐄",
+    "cost": 800,
+    "effect": { "type": "flat", "value": 10 },
+    "description": "Adds +$10 to every correct answer. She chews and thinks deeply."
+  },
+  {
+    "id": "cloud",
+    "name": "Drizzle the Cloud",
+    "emoji": "☁️",
+    "cost": 1200,
+    "effect": { "type": "time", "value": 3 },
+    "description": "Adds +3 seconds to the game timer on every correct answer."
+  },
+  {
+    "id": "owl",
+    "name": "Hoot the Owl",
+    "emoji": "🦉",
+    "cost": 2500,
+    "effect": { "type": "multiplier", "value": 2 },
+    "description": "DOUBLES all question rewards. Hoot hoot, smart choice!"
+  },
+  {
+    "id": "worm",
+    "name": "Wiggles the Worm",
+    "emoji": "🪱",
+    "cost": 4000,
+    "effect": { "type": "passive_percent", "value": 100 },
+    "description": "+100% passive income — worms enrich the soil and your wallet."
+  },
+  {
+    "id": "butterfly",
+    "name": "Flutter the Butterfly",
+    "emoji": "🦋",
+    "cost": 7000,
+    "effect": { "type": "percent", "value": 100 },
+    "description": "+100% bonus on correct answers. Beautiful and lucrative."
+  },
+  {
+    "id": "dragon",
+    "name": "Gaia the Dragon",
+    "emoji": "🐉",
+    "cost": 15000,
+    "effect": { "type": "multiplier", "value": 3 },
+    "description": "Rewards ×3! Legendary eco-guardian who breathes fresh air."
+  }
+]

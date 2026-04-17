@@ -1,0 +1,187 @@
+[
+  {
+    "id": "q1",
+    "category": "Food Waste",
+    "question": "Roughly what percentage of all food produced globally is wasted each year?",
+    "options": ["5%", "15%", "33%", "60%"],
+    "correctIndex": 2,
+    "explanation": "About one-third of all food produced is lost or wasted \u2014 roughly 1.3 billion tonnes annually."
+  },
+  {
+    "id": "q2",
+    "category": "Carbon Footprint",
+    "question": "Which food generally has the highest greenhouse gas footprint per kilogram?",
+    "options": ["Beef", "Chicken", "Lentils", "Rice"],
+    "correctIndex": 0,
+    "explanation": "Beef produces ~60kg of CO\u2082e per kg \u2014 far more than plant foods or poultry."
+  },
+  {
+    "id": "q3",
+    "category": "Water Usage",
+    "question": "About how many liters of water does it take to produce 1 kg of beef?",
+    "options": ["200 L", "1,500 L", "15,000 L", "150,000 L"],
+    "correctIndex": 2,
+    "explanation": "1 kg of beef needs ~15,000L of water when feed crops and drinking are included."
+  },
+  {
+    "id": "q4",
+    "category": "Nutrition",
+    "question": "Which of these is the best plant-based source of complete protein?",
+    "options": ["White rice", "Quinoa", "Iceberg lettuce", "Cucumber"],
+    "correctIndex": 1,
+    "explanation": "Quinoa is one of the few plants containing all nine essential amino acids."
+  },
+  {
+    "id": "q5",
+    "category": "Composting",
+    "question": "Which of the following should NOT go in a home compost bin?",
+    "options": ["Banana peels", "Coffee grounds", "Meat scraps", "Leaf clippings"],
+    "correctIndex": 2,
+    "explanation": "Meat attracts pests and smells bad in home compost \u2014 industrial composters handle it better."
+  },
+  {
+    "id": "q6",
+    "category": "Seasonality",
+    "question": "Eating seasonal and local produce primarily helps reduce what?",
+    "options": ["Salt intake", "Transport emissions", "Sugar content", "Cooking time"],
+    "correctIndex": 1,
+    "explanation": "Local, in-season food travels shorter distances, cutting fuel use and emissions."
+  },
+  {
+    "id": "q7",
+    "category": "Pollinators",
+    "question": "Roughly what fraction of the food we eat depends on pollinators like bees?",
+    "options": ["1 in 100", "1 in 10", "1 in 3", "All of it"],
+    "correctIndex": 2,
+    "explanation": "About 1 in 3 bites of food relies on pollinators \u2014 they're vital to our food system."
+  },
+  {
+    "id": "q8",
+    "category": "Soil Health",
+    "question": "What farming practice helps restore soil nutrients naturally?",
+    "options": [
+      "Monoculture farming",
+      "Crop rotation",
+      "Over-tilling",
+      "Pesticide spraying"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rotating crops (especially with legumes) replenishes nitrogen and keeps soil healthy."
+  },
+  {
+    "id": "q9",
+    "category": "Food Storage",
+    "question": "Storing which vegetable in the fridge makes it lose flavor quickly?",
+    "options": ["Carrots", "Tomatoes", "Broccoli", "Spinach"],
+    "correctIndex": 1,
+    "explanation": "Tomatoes lose flavor compounds below ~12\u00b0C \u2014 keep them on the counter!"
+  },
+  {
+    "id": "q10",
+    "category": "Sustainable Seafood",
+    "question": "Which label indicates sustainably caught fish?",
+    "options": ["MSC Blue Label", "Organic USDA", "Fair Trade", "Non-GMO"],
+    "correctIndex": 0,
+    "explanation": "The MSC (Marine Stewardship Council) blue label certifies sustainable wild-caught seafood."
+  },
+  {
+    "id": "q11",
+    "category": "Food Waste",
+    "question": "What is the #1 food thrown away in American households?",
+    "options": ["Bread", "Milk", "Potatoes", "Lettuce"],
+    "correctIndex": 1,
+    "explanation": "Milk tops the list \u2014 families often buy more than they use before expiry."
+  },
+  {
+    "id": "q12",
+    "category": "Labels",
+    "question": "\"Best by\" dates primarily indicate:",
+    "options": [
+      "Peak quality",
+      "Food safety expiration",
+      "Sell-by deadline",
+      "Legal disposal date"
+    ],
+    "correctIndex": 0,
+    "explanation": "\"Best by\" is about peak quality, not safety. Most food is still fine after the date."
+  },
+  {
+    "id": "q13",
+    "category": "Nutrition",
+    "question": "Which color of bell pepper contains the MOST vitamin C?",
+    "options": ["Green", "Yellow", "Red", "Orange"],
+    "correctIndex": 2,
+    "explanation": "Red bell peppers are fully ripe and pack nearly 3x the vitamin C of green ones."
+  },
+  {
+    "id": "q14",
+    "category": "Farming",
+    "question": "What does the term 'regenerative agriculture' focus on?",
+    "options": [
+      "Maximum short-term yield",
+      "Rebuilding soil and ecosystems",
+      "Genetically modifying seeds",
+      "Using more fertilizer"
+    ],
+    "correctIndex": 1,
+    "explanation": "Regenerative farming restores soil, biodiversity, and water cycles as it produces food."
+  },
+  {
+    "id": "q15",
+    "category": "Plant Power",
+    "question": "Which crop produces the most calories per acre?",
+    "options": ["Corn", "Wheat", "Potatoes", "Soybeans"],
+    "correctIndex": 2,
+    "explanation": "Potatoes produce more calories per acre than most grains \u2014 great efficient staple."
+  },
+  {
+    "id": "q16",
+    "category": "Food Miles",
+    "question": "What are 'food miles'?",
+    "options": [
+      "Calories per serving",
+      "Distance food travels to you",
+      "Shelf life in days",
+      "Delivery fee"
+    ],
+    "correctIndex": 1,
+    "explanation": "Food miles measure how far food travels from farm to plate \u2014 lower is often greener."
+  },
+  {
+    "id": "q17",
+    "category": "Packaging",
+    "question": "Which packaging has the LOWEST environmental impact when recycled?",
+    "options": ["Aluminum can", "Plastic bottle", "Styrofoam tray", "Wax-coated paper"],
+    "correctIndex": 0,
+    "explanation": "Aluminum is infinitely recyclable and saves ~95% energy vs. making new."
+  },
+  {
+    "id": "q18",
+    "category": "Biodiversity",
+    "question": "About how many of the world's 6,000+ edible plants do humans mostly rely on?",
+    "options": ["5", "20", "200", "1,000"],
+    "correctIndex": 1,
+    "explanation": "We depend on ~20 plants for most calories \u2014 a huge biodiversity risk."
+  },
+  {
+    "id": "q19",
+    "category": "Methane",
+    "question": "Which animal is the biggest agricultural source of methane?",
+    "options": ["Chickens", "Pigs", "Cows", "Sheep"],
+    "correctIndex": 2,
+    "explanation": "Cows burp out enormous amounts of methane, a potent greenhouse gas."
+  },
+  {
+    "id": "q20",
+    "category": "Smart Shopping",
+    "question": "The best way to cut food waste at home is to:",
+    "options": [
+      "Shop on impulse",
+      "Make a meal plan and list",
+      "Stockpile bulk items",
+      "Always buy extra"
+    ],
+    "correctIndex": 1,
+    "explanation": "Planning meals cuts waste dramatically \u2014 you buy only what you\u2019ll actually eat."
+  }
+]

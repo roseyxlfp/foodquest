@@ -1,26 +1,163 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #f7fbf3;
+  --foreground: #14261b;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .animate-pop {
+    animation: pop 280ms ease-out;
+  }
+  .animate-sway {
+    animation: sway 2.8s ease-in-out infinite;
+    transform-origin: bottom center;
+    display: inline-block;
+  }
+  .animate-bob {
+    animation: bob 2.4s ease-in-out infinite;
+    display: inline-block;
+  }
+  .animate-drift {
+    animation: drift 35s linear infinite;
+  }
+  .animate-drift-slow {
+    animation: drift 55s linear infinite;
+  }
+  .animate-spin-slow {
+    animation: spin-slow 22s linear infinite;
+    display: inline-block;
+  }
+  .animate-rise {
+    animation: rise 1.6s ease-out forwards;
+  }
+  .animate-wiggle {
+    animation: wiggle 3.5s ease-in-out infinite;
+    display: inline-block;
+  }
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(0.4);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.15);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes sway {
+  0%, 100% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(4deg);
+  }
+}
+
+@keyframes bob {
+  0%, 100% {
+    transform: translateY(0) rotate(-3deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(3deg);
+  }
+}
+
+@keyframes drift {
+  from {
+    transform: translateX(-20%);
+  }
+  to {
+    transform: translateX(120vw);
+  }
+}
+
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes rise {
+  0% {
+    transform: translateY(0) scale(0.8);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-60px) scale(1.1);
+    opacity: 0;
+  }
+}
+
+@keyframes wiggle {
+  0%, 100% { transform: translateX(0) rotate(0); }
+  25% { transform: translateX(2px) rotate(2deg); }
+  75% { transform: translateX(-2px) rotate(-2deg); }
+}
+
+/* Mascot flight paths — each covers the whole scene with a unique motion */
+.animate-fly-a { animation: fly-a 22s ease-in-out infinite; }
+.animate-fly-b { animation: fly-b 28s ease-in-out infinite; }
+.animate-fly-c { animation: fly-c 26s linear infinite; }
+.animate-fly-d { animation: fly-d 18s ease-in-out infinite; }
+.animate-fly-e { animation: fly-e 32s ease-in-out infinite; }
+
+/* Horizontal sweep with up/down arcs */
+@keyframes fly-a {
+  0%   { transform: translate(0, 0); }
+  25%  { transform: translate(45vw, -4vh); }
+  50%  { transform: translate(80vw, 2vh); }
+  75%  { transform: translate(45vw, -2vh); }
+  100% { transform: translate(0, 0); }
+}
+
+/* Figure-8 ish */
+@keyframes fly-b {
+  0%   { transform: translate(0, 0) scaleX(1); }
+  25%  { transform: translate(35vw, 6vh) scaleX(1); }
+  50%  { transform: translate(70vw, 0) scaleX(-1); }
+  75%  { transform: translate(35vw, -6vh) scaleX(-1); }
+  100% { transform: translate(0, 0) scaleX(1); }
+}
+
+/* Slow circular loop */
+@keyframes fly-c {
+  0%   { transform: translate(0, 0); }
+  25%  { transform: translate(25vw, -5vh); }
+  50%  { transform: translate(50vw, 0); }
+  75%  { transform: translate(25vw, 5vh); }
+  100% { transform: translate(0, 0); }
+}
+
+/* Quick zigzag */
+@keyframes fly-d {
+  0%   { transform: translate(0, 0); }
+  20%  { transform: translate(20vw, -3vh); }
+  40%  { transform: translate(40vw, 4vh); }
+  60%  { transform: translate(60vw, -4vh); }
+  80%  { transform: translate(30vw, 3vh); }
+  100% { transform: translate(0, 0); }
+}
+
+/* Gentle wide arc */
+@keyframes fly-e {
+  0%   { transform: translate(0, 0); }
+  50%  { transform: translate(65vw, -8vh); }
+  100% { transform: translate(0, 0); }
 }
