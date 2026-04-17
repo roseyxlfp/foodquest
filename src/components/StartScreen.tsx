@@ -26,7 +26,7 @@ export default function StartScreen() {
             <p className="text-sm text-gray-700 leading-snug">
               Answer multiple-choice food &amp; sustainability questions → earn
               money → plant foods &amp; hire mascots. You have{" "}
-              <span className="font-bold">10 minutes</span>. How far can you grow?
+              <span className="font-bold">5 minutes</span>. How far can you grow?
             </p>
 
             <label className="block">
@@ -55,7 +55,7 @@ export default function StartScreen() {
             </button>
 
             <div className="grid grid-cols-3 gap-2 text-center text-xs">
-              <Pill icon="⏱️" label="10 min" sub="Beat the clock" />
+              <Pill icon="⏱️" label="5 min" sub="Beat the clock" />
               <Pill icon="❓" label="MCQ" sub="Earn $ per answer" />
               <Pill icon="🐝" label="Mascots" sub="Stack bonuses" />
             </div>
