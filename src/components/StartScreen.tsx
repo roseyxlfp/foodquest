@@ -26,7 +26,7 @@ export default function StartScreen() {
             <p className="text-sm text-gray-700 leading-snug">
               Answer multiple-choice food &amp; sustainability questions → earn
               money → plant foods &amp; hire mascots. You have{" "}
-              <span className="font-bold">5 minutes</span>. How far can you grow?
+              <span className="font-bold">2 minutes</span>. How far can you grow?
             </p>
 
             <label className="block">

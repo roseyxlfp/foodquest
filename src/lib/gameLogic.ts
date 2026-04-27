@@ -5,7 +5,7 @@ import foods from "@/data/foods.json";
 export const ALL_MASCOTS: Mascot[] = mascots as Mascot[];
 export const ALL_FOODS: Food[] = foods as Food[];
 
-export const GAME_DURATION = 300;
+export const GAME_DURATION = 120;
 export const QUESTION_DURATION = 30;
 export const BASE_REWARD = 10;
 export const QUICK_BONUS_THRESHOLD = 20;
